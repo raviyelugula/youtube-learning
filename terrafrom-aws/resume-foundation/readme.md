@@ -13,9 +13,7 @@
     5. Create a KeyPair, use this KeyPair to create an EC2.
     6. Create a config file in your local machine dynamically with the EC2 detials (use - [provisioner and interpreter]). so that you can ssh into the EC2 using the KeyPair from your local/local VS.
     7. Use variables, conditional expressions for dynamic assignments
----
----
----
+
 # NOTES 
 ## Providers
     1. To interact with the many resources supported by AWS. 
@@ -32,7 +30,8 @@
 +**terraform init**
     
     1. This will initialize the terrform by installing necessary providers.
-    2. Under .terraform/.terraform.lock.hcl records the provider selections it made above. Include this file in your version control repository so that Terraform can guarantee to make the same selections by default when you run "terraform init" in the future.
+    2. Under .terraform/.terraform.lock.hcl records the provider selections it made above. 
+    Include this file in your version control repository so that Terraform can guarantee to make the same selections by default when you run "terraform init" in the future.
 
 +**terraform plan**
 
